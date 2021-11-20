@@ -126,7 +126,7 @@ android_library {
         "com_android_systemui_flags_lib",
         "settings_connectivity_flags_lib",
         "glide",
-
+	"VendorSupport-preference",
     ],
 
     plugins: [
