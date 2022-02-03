@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2020-2021 The LineageOS Project
+<!-- Copyright (C) 2014-2025 The BlissRoms Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,10 +14,6 @@
      limitations under the License.
 -->
 <resources>
-    <string-array name="config_ignored_backup_transports" translatable="false">
-        <item>com.android.localtransport/.LocalTransport</item>
-    </string-array>
-
     <!-- Fingerprint -->
-    <bool name="config_is_front_facing_fps" translatable="false">false</bool>
+    <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
 </resources>
