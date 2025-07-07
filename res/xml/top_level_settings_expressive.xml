@@ -26,20 +26,14 @@
         android:layout="@layout/settingslib_preference_category_no_title">
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:order="-155"
-        android:key="top_level_blissify_category"
-        android:layout="@layout/settingslib_preference_category_no_title">
-
-    <com.android.settings.widget.HomepagePreference
-        android:fragment="org.blissroms.blissify.Blissify"
-        android:icon="@drawable/ic_homepage_blissify"
-        android:key="top_level_blissify"
-        android:order="-50"
-        android:title="@string/blissify_settings_title"
-        android:summary="@string/blissify_settings_summary"
-        settings:controller="org.blissroms.blissify.TopLevelBlissifyPreferenceController"/>
-    </PreferenceCategory>
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="org.blissroms.blissify.Blissify"
+            android:icon="@drawable/ic_homepage_blissify"
+            android:key="top_level_blissify"
+            android:order="-155"
+            android:title="@string/blissify_settings_title"
+            android:summary="@string/blissify_settings_summary"
+            settings:controller="org.blissroms.blissify.TopLevelBlissifyPreferenceController"/>
 
         <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.network.NetworkDashboardFragment"
